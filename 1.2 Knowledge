@@ -1,0 +1,11 @@
+public class knowledge
+{
+    //prints the phrase 'knowledge is power'in one line
+    //prints knowledge is power word by word
+    //prints knowledge is power in a box
+    public static void main(String args[]) {
+      System.out.println("Knowledge is power.");
+      System.out.println("Knowledge\nis\npower");
+      System.out.println("___________\n|Knowledge|\n|   is    |\n|  power  |\n___________");
+    }// end of main
+}// end of knowledge
