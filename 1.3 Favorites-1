@@ -1,0 +1,10 @@
+public class myFavoriteThings 
+{
+    //prints the authors favorite things out, each on separate lines. 
+    public static void main(String args[])
+    {
+        System.out.print("Name: Grace\nBirthday: June 8th\nHobbies: Drawing and painting"
+        + "\nFavorite book: Currently the Stormlight Archive Series by Brandon Sanderson"
+        + "\nFavorite movie: The Princess Bride");
+    }//end of main
+}//end of my favorite things
