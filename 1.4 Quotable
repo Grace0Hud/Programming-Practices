@@ -1,0 +1,9 @@
+public class quotable
+{
+    //prints out a quote by thomas s monson
+    public static void main(String args[])
+    {
+        System.out.println("\"Sometimes courage is that little voice at the end of the day that"
+        + "\n says\'I'll try again tomorrow\'\" - Thomas S Monson");
+    }//end of main
+}//end of quotable
