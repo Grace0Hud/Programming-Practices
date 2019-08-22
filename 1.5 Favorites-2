@@ -1,0 +1,10 @@
+public class myFavoriteThings
+{
+    //prints out the users favorite things in proper formatting
+    public static void main(String args[])
+    {
+      System.out.println("Name: \"Grace-ie-lue\"\nBirthday: 06\\08\\2003\n"
+      + "Favorite Book: \'The Way of Kings\' by Brandon Sanderson\nFavoriteMovie:"
+      + "\"The Princess Bride\"");
+    }//end of main
+}//end of my favorite things
