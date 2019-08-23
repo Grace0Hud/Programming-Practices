@@ -1,0 +1,21 @@
+public class arithOfTwo
+{
+    //prints the sum, difference, and product of two doubles
+    public static void main(String args[])
+    {
+     //var asssignments
+     double x = 9.1;
+     double y = 7.3;
+     double sum;
+     double diff;
+     double prod;
+     //computations
+     sum = x + y;
+     diff = x - y;
+     prod = x * y;
+     //print statements
+      System.out.println("Sum of x and y: " + sum);
+      System.out.println("Difference of x and y: " + diff);
+      System.out.println("Product of x and y: " + prod);
+    }//end of main
+}// end of arithOfTwo
