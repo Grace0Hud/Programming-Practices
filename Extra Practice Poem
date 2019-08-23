@@ -1,0 +1,12 @@
+public class poem
+{
+    //Prints out the poem doodle by ms moem
+    public static void main(String args[]) 
+    {
+        System.out.println("\t\tDoodle\n\tI took my pen\n\tI drew you out\n\tI got you wrong."
+        + "\n\tI rubbed you out\n\tI honed my craft\n\tI tried again\n\tI failed with mice"
+        +"\n\tAnd then with men\n\tAnd then with landscapes\n\tLaced with trees.\n"
+        + "Where others seemed to draw with ease\n\tMy lines were sloppy\n\t Colors weak,"
+        +"\n\tYour essance greyed,\n\t\tleft incomplete.");
+    }//end of main
+}//end of poem
