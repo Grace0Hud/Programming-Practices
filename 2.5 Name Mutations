@@ -1,0 +1,23 @@
+public class myName
+{
+    //
+    //prints out the author's first and last name
+    //through concatenated strings first, then prints
+    //the length of the concatinated string, then prints
+    //said string in all caps
+    //
+    public static void main(String args[])
+    {
+    //variable declarations
+      String firstName = "Grace";
+      String lastName = "Hudgens";
+      String fullName = firstName.concat(" " + lastName);
+    
+      System.out.println(fullName);
+      System.out.println("Length of first name: " + firstName.length()
+      + "\nLength og last name: " + lastName.length() + "\nLength of full name: "
+      + fullName.length());
+      System.out.println(fullName.toUpperCase());
+      
+    }//end of main
+}//end of myName
