@@ -1,0 +1,23 @@
+public class toSeconds 
+{
+    //
+    //adds together hours, minutes, and seconds
+    //by changing them all into seconds
+    //
+    public static void main(String args[])
+    {
+    //variable decorations
+      int hrs = 1;
+      int mins = 1;
+      int sec = 1;
+      int result;
+      System.out.println("Hrs: " + hrs + " Mins: " + mins + " Secs: " + sec);
+     //Computation
+      hrs = hrs * 120;
+      mins = mins * 60;
+      result = hrs + mins + sec;
+     //prints out answer
+     System.out.println("Total Seconds:" + result);
+      
+    }//end of main
+}//end of toSeconds
