@@ -1,0 +1,22 @@
+public class hakuna
+{   
+    //
+    //prints out the text "Hakuna matata it means no 
+    //worries for the rest of your days"
+    // once regularly, next just the phrase "no worries"
+    //finally, each A is replaced with a 4
+    //
+    public static void main(String args[])
+    {
+        //variable declarations
+        String quote = ("Hakuna matata, it means no worries for the rest"
+        + " of your days");
+        String noWorries = quote.substring(23,34);
+        String changeAtoFour = quote.replace('a','4');
+        
+        //outputs
+        System.out.println(quote);
+        System.out.println(noWorries);
+        System.out.println(changeAtoFour);
+    }//end of main
+}//end of hakuna
