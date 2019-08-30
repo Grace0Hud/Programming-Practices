@@ -1,0 +1,37 @@
+import java.util.Scanner;
+import java.lang.*;
+
+public class computeDistance
+{
+    //
+    //computes the distance between two points
+    //uses the formula d = ((x2 - x1)^2 - (y2 - y1)^2)^1/2
+    public static void main(String args[])
+    {
+      //variable declartaions
+      Scanner keyboard = new Scanner(System.in);
+      double x1, x2, y1, y2;
+      double xs, ys, distance;
+      
+      //user input
+      System.out.print("Enter the x coordinate of your first point: ");
+      x1 = keyboard.nextDouble();
+      
+      System.out.print("Enter the y coordinate of your first point: ");
+      y1 = keyboard.nextDouble();
+      
+      System.out.print("Enter the x coordinate of your second point: ");
+      x2 = keyboard.nextDouble();
+      
+      System.out.print("Enter the y coordinate of your second point: ");
+      y2 = keyboard.nextDouble();
+      
+      //computation
+      xs = Math.pow((x2 - x1), 2);
+      ys = Math.pow((y2 - y1), 2);
+      distance = Math.sqrt(xs + ys);
+      
+      //prints out final result
+      System.out.print("The distance between the two points is: " + distance);
+    }//end of main
+}//end of compute distance
